@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=588, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css"> <!-- linking css doc to html doc-->
+    <script src="https://kit.fontawesome.com/4819ab38b5.js" crossorigin="anonymous"></script> <!-- copy and pasted font script--> 
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <section id="header">  <!-- header is the whole top section of the website. Self-explanatory. -->
+        <a href="#"><img src="images/YK STR.png" class="logo" alt="" width="80" height="80"></a> <!-- <a> defines a hyperlink and href is its destination. In this case its for the logo-->
+
+        <div class="nav"> 
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="privacypolicy.html">Privacy Policy</a></li> <!-- should include contacts here-->
+                <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </div> 
+
+        
+    </section>
+
+ 
+    <section id="hero">
+        <h2>Super value deals</h2>
+        <h1>On all products</h1><br>
+        <!-- <p>Save more with coupons & up to 70% off</p> -->
+        <a href="shop.html"><button> Shop Now</button></a>
+        
+        
+
+    </section>
+
+    <!-- <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="/images/TSHIRT.png" alt="">
+        </div>
+        <div class="fe-box">
+            <img src="/images/HOODIE.png" alt="">
+        </div>
+        <div class="fe-box">
+            <img src="/images/ACCESORIES.png" alt="">
+        </div>
+
+    </section> -->
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up To Get The Latest</h4>
+            <p>Get E-mail updates about our latest products and special offers.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+
+        </div>
+
+    </section>
+
+    <section id="product1" class="section-p1">
+        <br><br><h2>TOP SELLING PRODUCTS</h2>
+        <p></p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="/images/product1.jpg" alt=""> 
+                <div class="desc">
+                    <span>T-SHIRT</span>
+                    <h5>YKF 705 BLACK TEE LA UNISEX T-SHIRT</h5>
+                    <h4>£14.99</h4>
+
+                </div>
+                <a href="#"><i class="fas fa-shopping-bag cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/images/product2.jpg" alt=""> 
+                <div class="desc">
+                    <span>T-SHIRT</span>
+                    <h5>YKF 705 BLACK TEE T-SHIRT</h5>
+                    <h4>£14.99</h4>
+
+                </div>
+                <a href="#"><i class="fas fa-shopping-bag cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/images/product3.jpg" alt=""> 
+                <div class="desc">
+                    <span>BEANIE</span>
+                    <h5>YKF 705 GREY BEANIE</h5>
+                    <h4>£7.99</h4>
+                    
+                </div>
+                <a href="#"><i class="fas fa-shopping-bag cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/images/product4.jpg" alt=""> 
+                <div class="desc">
+                    <span>SWEATER/JUMPER</span>
+                    <h5>YKF 705 BLACK SWEATER/JUMPER</h5>
+                    <h4>£12.99</h4>
+                    
+                </div>
+                <a href="#"><i class="fas fa-shopping-bag cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/images/product5.jpg" alt=""> 
+                <div class="desc">
+                    <span>WATER BOTTLE</span>
+                    <h5>YKF 705 BLACK WATER BOTTLE</h5>
+                    <h4>£13.99</h4>
+                    
+                </div>
+                <a href="#"><i class="fas fa-shopping-bag cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/images/product6.jpg" alt=""> 
+                <div class="desc">
+                    <span>SWEATER/JUMPER</span>
+                    <h5>YKF 705 CALI BLACK SWEATER/JUMPER</h5>
+                    <h4>£17.99</h4>
+                    
+                </div>
+
+                <a href="#"><i class="fas fa-shopping-bag cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="/images/product7.jpg" alt=""> 
+                <div class="desc">
+                    <span>SWEATER/JUMPER</span>
+                    <h5>YKF 705 V2 BLACK SWEATER/JUMPER</h5>
+                    <h4>£14.99</h4>
+                    
+                </div>
+                <a href="#"><i class="fas fa-shopping-bag cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="/images/product8.jpg" alt=""> 
+                <div class="desc">
+                    <span>WATER BOTTLE</span>
+                    <h5>YKF 705 V2 BLACK WATER BOTTLE</h5>
+                    <h4>£14.99</h4>
+                    
+                </div>
+                <a href="#"><i class="fas fa-shopping-bag cart"></i></a>
+                
+            </div>
+        </div>
+        <br><br><br><br><br>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your E-mail">
+            <textarea name="" id="" cols="30"  rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+
+
+    </section>
+
+   
+
+    <!-- footer -->
+
+    <footer class="section-p1">
+        <div class="column">
+            <img class="logo" src="/images/YK STR.png" alt="" >
+            <h3>Contact</h3>
+            <h4>——</h4>
+            <h3><strong>YKSTORE@gmail.com</strong></h3>
+            <h3><strong> +44 (7443278968)</strong></h3>
+            <h3><strong>24/7</strong></h3>
+        </div>
+    
+        <div class="column2 section-p1">
+            <h3>About</h3>
+            <h4>——</h4>
+
+            <h3>You can expect to see a variety of clothing and accessories by YKF. If this is your thing, why not stick around?</h3>
+        </div>
+    </footer>
+
+    <section id="last">
+        <div class="copyright">
+            <h5><strong>COPYRIGHT 2024 © YK STORE</strong></h5> 
+            <img src="/images/pay.png" alt="">
+        </div>
+    </section>
+
+    <script>
+    var navbar = document.getElementById("navbar");
+
+    function openmenu(){
+        navbar.style.right = "0";
+    }
+    
+    function closemenu(){
+        navbar.style.right = "-260px";
+    }
+    </script>
+
+    
+</body>
+</html>
